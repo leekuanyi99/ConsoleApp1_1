@@ -1,7 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
-string str_new = "Welcome!";
-string str_old = "How many days do you want to stay?";
-Console.WriteLine(str_new + str_old);
+string str_new = "Welcome! What is your name?";
+Console.WriteLine(str_new);
+string name = Console.ReadLine();
+string str_old = " How long do you want to stay here?";
+Console.WriteLine("Ok, {0}. {1}",name, str_old);
 int number= Convert.ToInt32(Console.ReadLine());
 
 if(number == 0)
@@ -10,5 +12,5 @@ if(number == 0)
 }
 else
 {
-    Console.WriteLine("I want to stay for "+number+" days.");
+    Console.WriteLine("I want to stay here for "+number+" days.");
 }
