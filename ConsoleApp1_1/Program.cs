@@ -8,7 +8,7 @@ int number= Convert.ToInt32(Console.ReadLine());
 
 if(number == 0)
 {
-    Console.WriteLine("Thanks. I don't want stay here and I will go home tonight.");
+    Console.WriteLine("Thank you but I don't want stay here.");
 }
 else
 {
